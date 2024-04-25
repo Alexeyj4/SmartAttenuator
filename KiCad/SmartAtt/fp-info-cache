@@ -1,4 +1,4 @@
-23131857518229164
+23133571732915135
 Alexeyj4
 HC0903A
 
@@ -14,7 +14,7 @@ MPN
 4
 4
 Alexeyj4
-OLED1.3
+OLED I2C
 
 
 0
@@ -27,6 +27,13 @@ RotaryEncoder EC11 SMD
 0
 5
 5
+Alexeyj4
+SOP65P640X110-24N
+SOT355-1
+Integrated Circuit
+0
+24
+24
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
