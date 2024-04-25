@@ -2,13 +2,14 @@
 HMC542BLP4ETR - ок
 Свисток - ok
 ESP32-Wroom-32 - ок
-МП-Н на 6,3В
-LDO 5V
-LDO 3V
+МП-Н на 5В - ок
+LDO 3V ок
 Светодиод (питание/настройка) - ок
-Дроссель
+Дроссель - ок
 Бананы - ок
 ДЦЖ - ок
 PLS - ок
-Divider CAP
+Divider CAP - ok
 jumper - ok
+LCD - ок
+Encoder+R+C - ок
