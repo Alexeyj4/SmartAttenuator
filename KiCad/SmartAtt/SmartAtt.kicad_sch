@@ -4530,6 +4530,12 @@
 		(uuid "365fe778-2a59-4a99-a9b1-9958919c55a5")
 	)
 	(junction
+		(at 110.49 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e47af86-0533-4024-92c9-0a2ca2ada1db")
+	)
+	(junction
 		(at 58.42 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4840,6 +4846,16 @@
 			(type default)
 		)
 		(uuid "04eb5807-ec3b-45b4-9f16-9739124e694b")
+	)
+	(wire
+		(pts
+			(xy 110.49 133.35) (xy 110.49 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0571fa79-b345-4b93-b7f3-66ce3c5df9b8")
 	)
 	(wire
 		(pts
@@ -9682,6 +9698,72 @@
 			(project "SmartAtt"
 				(path "/51c17e9b-7dab-4c11-afbb-666453ecee80"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 110.49 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7c63059d-b326-4366-94ce-ca0b894034a3")
+		(property "Reference" "#PWR033"
+			(at 110.49 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 110.49 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 110.49 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18e80b10-f3ec-479e-a75f-8be1387fa829")
+		)
+		(instances
+			(project "SmartAtt"
+				(path "/51c17e9b-7dab-4c11-afbb-666453ecee80"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
