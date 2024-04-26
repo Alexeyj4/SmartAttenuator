@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
@@ -14,6 +14,7 @@
       "vias": 1.0,
       "zones": 0.6
     },
+    "ratsnest_display_mode": 0,
     "selection_filter": {
       "dimensions": true,
       "footprints": true,
@@ -21,8 +22,8 @@
       "keepouts": true,
       "lockedItems": false,
       "otherItems": true,
-      "pads": false,
-      "text": false,
+      "pads": true,
+      "text": true,
       "tracks": true,
       "vias": true,
       "zones": true
@@ -61,11 +62,10 @@
       34,
       35,
       36,
-      37,
       39,
       40
     ],
-    "visible_layers": "ff8ffff_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
@@ -75,7 +75,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "SmartAtt.kicad_prl",
+    "filename": "LSR41.kicad_prl",
     "version": 3
   },
   "project": {
