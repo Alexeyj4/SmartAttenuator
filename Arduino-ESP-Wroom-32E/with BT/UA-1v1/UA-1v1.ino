@@ -1,11 +1,14 @@
 //#define BUZZER_MODE_ON //закомментируйте, если нужен беззвучный режим
+#define BT_MODULE_ON //закомментируйте, если нужен режим без BT (меньше энергопотребление)
 //в библиотеке BLE.h задайте имя BT
 #define OLED_DISPLAY_TYPE 1106
 #include <Oled.h>
 #include <ESP32Encoder.h>
 #include "attValues.h"
 #include <EEPROM.h>
+#ifdef BT_MODULE_ON
 #include <Ble.h>
+#endif
 
 #define BUZZER_PIN 13
 #define LED_PIN 14
@@ -18,7 +21,7 @@
 #define ENC_BTN_PIN 25
 #define ENC_B_PIN 26
 #define ENC_A_PIN 27
-#define updateRegisterInterval 5000 //каждые 10сек обновляется регистр микросхемы аттенюатора (на случай помех и т.п.)
+#define updateRegisterInterval 5000 //каждые n сек обновляется регистр микросхемы аттенюатора (на случай помех и т.п.)
 
 signed char prev_enc_pos; //предыдущая позиция энкодера для фиксации факта поворота
 signed char enc_pos; //текущая позиция энкодера
@@ -26,7 +29,9 @@ bool button_released_flag=1; //флаг, была ли отжата кнопка
 long prevMillis=millis();
 
 Oled oled;
+#ifdef BT_MODULE_ON
 Ble ble;
+#endif
 ESP32Encoder enc;
 
 void setup();
@@ -59,7 +64,9 @@ void setup() {
   prev_enc_pos=enc_pos; //выравнивание, чтобы не было факта поворота
   enc.setCount(-1*enc_pos*2); //выравнивание переменной в объекте энкодера
   applyChangesAndRender();
+  #ifdef BT_MODULE_ON
   ble.begin();
+  #endif
 }
 
 void loop() {
@@ -96,6 +103,7 @@ void loop() {
     Serial.println("updating");
   }
 
+  #ifdef BT_MODULE_ON
   if(ble.recvd()!=""){  //если с BT пришла команда
     delay(100);
     String command_from_ble="";
@@ -110,7 +118,11 @@ void loop() {
     if(command_from_ble.startsWith("save")){            
       saveSettings();
     } 
+    if(command_from_ble.startsWith("request")){            
+      ble.send("l="+String(attValue[enc_pos].value_in_db_to_display));
+    } 
   }
+  #endif
   
   
 }
@@ -162,5 +174,7 @@ void applyChangesAndRender(){ //применение настроек и про�
   oled.update();      
   prev_enc_pos=enc_pos;
   enc.setCount(-1*enc_pos*2);
+  #ifdef BT_MODULE_ON
   ble.send("l="+String(attValue[enc_pos].value_in_db_to_display));    
+  #endif
 }
