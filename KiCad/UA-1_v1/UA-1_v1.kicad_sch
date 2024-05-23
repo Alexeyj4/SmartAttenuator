@@ -1180,7 +1180,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin power_out line
 					(at 7.62 0 180)
 					(length 2.54)
 					(name "Vout"
@@ -4662,12 +4662,6 @@
 		(uuid "f1afc5a3-4e22-4d9f-951b-ef65dac4f1c2")
 	)
 	(junction
-		(at 36.83 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f1d3d5e7-70c9-4d0d-ac40-2d8887ea3b43")
-	)
-	(junction
 		(at 186.69 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5999,7 +5993,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 39.37) (xy 36.83 40.64)
+			(xy 36.83 39.37) (xy 36.83 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6106,16 +6100,6 @@
 			(type default)
 		)
 		(uuid "bba2649a-6767-4e00-9371-62b59ff24a82")
-	)
-	(wire
-		(pts
-			(xy 36.83 40.64) (xy 36.83 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdd8151e-4da0-456c-ba74-405fa073f069")
 	)
 	(wire
 		(pts
@@ -9087,73 +9071,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 36.83 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64fcf164-d3ee-4faa-82fb-1556330179bc")
-		(property "Reference" "#FLG01"
-			(at 34.925 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 33.02 40.6399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1a5d201f-de9f-4c8e-9687-9a7128e20e1e")
-		)
-		(instances
-			(project "UA-1_v1"
-				(path "/51c17e9b-7dab-4c11-afbb-666453ecee80"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 248.92 44.45 0)
 		(unit 1)
@@ -10418,15 +10335,15 @@
 		(dnp no)
 		(uuid "9efb9a66-356a-4b33-b4a3-c9934ba88ffe")
 		(property "Reference" "JP1"
-			(at 137.16 33.02 0)
+			(at 141.224 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "FW"
-			(at 133.096 41.656 0)
+		(property "Value" "PLS-3"
+			(at 141.986 44.196 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -164,7 +164,7 @@
 				)
 			)
 		)
-		(property "Value" "FW"
+		(property "Value" "PLS-3"
 			(at 0 7.41 0)
 			(layer "F.Fab")
 			(uuid "4d64f61e-b16d-4529-9770-ee0182d606c1")
@@ -214,8 +214,8 @@
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/9efb9a66-356a-4b33-b4a3-c9934ba88ffe")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(sheetfile "UA-1_v1.kicad_sch")
+		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
 			(end 0 -1.33)
@@ -430,7 +430,7 @@
 			(at -9.8 -11.3 0)
 			(unlocked yes)
 			(layer "F.SilkS")
-			(uuid "f73e4731-8d8f-4691-ad8a-1abe00227a38")
+			(uuid "a5b7c7ee-4fae-4495-82a7-a6e49af93be4")
 			(effects
 				(font
 					(size 1 1)
@@ -442,7 +442,7 @@
 			(at 0 1 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "521b8de6-f636-4448-9789-024953b4467b")
+			(uuid "fabfb090-2fed-42e4-ac41-5db58312d459")
 			(effects
 				(font
 					(size 1 1)
@@ -455,7 +455,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3dcf4a53-1f38-4e33-a0f8-962158a81a9f")
+			(uuid "bdeb74b0-72c0-4325-85bf-1ea4b4d06126")
 			(effects
 				(font
 					(size 1 1)
@@ -468,7 +468,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf67f09e-b0bc-4667-ab08-0c7423deefe7")
+			(uuid "e2d3f067-cf15-48cf-b325-4653b5fba89f")
 			(effects
 				(font
 					(size 1 1)
@@ -481,7 +481,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c3572b43-b20d-45b1-871c-a1724b131756")
+			(uuid "541f624e-8a3d-4a86-96ee-b9c3a68d0943")
 			(effects
 				(font
 					(size 1 1)
@@ -491,7 +491,7 @@
 		)
 		(path "/f188cb24-43f0-49a6-93a1-acc08c9cae75")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -26 -10)
@@ -502,13 +502,13 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "a5ca296a-0ffe-4f25-b727-7c0997b67f0e")
+			(uuid "7b27e166-814a-4686-b981-82b16a884638")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 2.5 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "57b459df-16ae-4738-80bb-ae3b4a37d3fd")
+			(uuid "b08de5ea-f82f-40d7-9c5e-8c1dbeb6f8b2")
 			(effects
 				(font
 					(size 1 1)
@@ -525,7 +525,7 @@
 			(net 17 "Net-(D1-K)")
 			(pinfunction "Vin")
 			(pintype "power_in")
-			(uuid "536cac8b-5f3e-4e7d-a1fe-e6a9b1bcab5b")
+			(uuid "553a5bd9-ed2b-4576-8f18-953e97cb254b")
 		)
 		(pad "2" thru_hole circle
 			(at -24 -8)
@@ -536,7 +536,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_in")
-			(uuid "b17a4b41-237b-46e9-9260-6f3091afe50d")
+			(uuid "8b5c3452-e432-4feb-831f-629bac56790f")
 		)
 		(pad "3" thru_hole circle
 			(at 24 -2)
@@ -546,8 +546,8 @@
 			(remove_unused_layers no)
 			(net 5 "+5V")
 			(pinfunction "Vout")
-			(pintype "passive")
-			(uuid "b4bd0378-c5c7-4e91-a264-bd4cda8e4332")
+			(pintype "power_out")
+			(uuid "f773f0a6-b70a-4a43-b46b-98ff27164b9f")
 		)
 		(pad "4" thru_hole circle
 			(at 24 8)
@@ -558,7 +558,7 @@
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
-			(uuid "e68cd3fc-2d82-410b-82f8-f291094c7edf")
+			(uuid "2a7ff4c7-f2c4-493b-90eb-edc0a614c8f4")
 		)
 	)
 	(footprint "Alexeyj4:OLED I2C"
@@ -630,7 +630,7 @@
 		)
 		(path "/e98a7dad-c5ca-4786-991d-bfc2f0450ebd")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -18 -15)
@@ -822,7 +822,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/775ae38b-39e3-4247-be7e-358f36e11127")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.7 -0.7)
@@ -995,7 +995,7 @@
 		(property ki_fp_filters "*Buzzer*")
 		(path "/0fdc557f-8b0f-4382-bede-9e3ec625252a")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr through_hole)
 		(fp_rect
 			(start -3 -7)
@@ -1121,7 +1121,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/745238b8-d098-421e-840c-efbd06ce1959")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.7 -0.7)
@@ -1291,7 +1291,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/fbd37740-9301-477e-8918-d56762da76be")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.7 -0.7)
@@ -1461,7 +1461,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/9fdcfd14-9e8e-4db8-b8de-e01f952a1447")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.6 -1.135)
@@ -1695,7 +1695,7 @@
 		)
 		(path "/68fb196d-3c64-4ed1-b844-eced26607397")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_rect
 			(start -10 -2)
@@ -1919,7 +1919,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3ad3a7a1-b82a-4f2b-a53d-cef5a077cbd7")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_line
 			(start -0.7 -0.7)
@@ -2089,7 +2089,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e5adf2c0-a1f4-452d-968f-aecc2e5fc740")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 4.06 2.91)
@@ -2554,7 +2554,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/34de1405-e16c-41d2-9335-dc0db584d482")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -2845,7 +2845,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/8f9327ec-4e86-427e-85c4-b6ea98449861")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -3089,7 +3089,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/a2b2db45-1a87-43fa-bd83-0ffda52b49bd")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.71 -2.15)
@@ -3377,7 +3377,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/39997db4-b31f-43bc-b157-f03055a8203b")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -3593,7 +3593,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/3ac5f53a-dfde-468a-a339-5848dd7ef041")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 8.87 2.62)
@@ -3851,7 +3851,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/001e7012-4d87-4ddf-9f6c-1cc488e008d0")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.65 -2.26)
@@ -4087,7 +4087,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/42492887-4550-456e-b136-c21a03a5c8f5")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 0.735)
@@ -4303,7 +4303,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/54d5cba0-a79b-4c9c-8218-e54a7cad9971")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -4519,7 +4519,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/3699730d-5d53-4add-b478-deafc0f290cc")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.65 -2.26)
@@ -4755,7 +4755,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a66e2319-8ffa-4f53-bbb6-e3dd9a510d53")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -4971,7 +4971,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/afec2caf-6c43-4fd2-8004-bfd71b1574ac")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -5215,7 +5215,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/56046c57-3716-41e6-9abc-b786801e465d")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 2.7 2.15)
@@ -5503,7 +5503,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/f8deab3f-94ef-44cb-9008-ee35f1544963")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.65 -2.26)
@@ -5739,7 +5739,7 @@
 		(property ki_fp_filters "ESP32?WROOM?32D*")
 		(path "/9cd92bfe-8849-44f5-a990-0092be63102d")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -9.12 -9.88)
@@ -6921,7 +6921,7 @@
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/12c07bc3-6534-49a2-a65c-8da761381e25")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.71 -2.15)
@@ -7209,7 +7209,7 @@
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/1bee0ca2-0e61-4567-87b8-d89661c627d4")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.91 3.41)
@@ -7488,7 +7488,7 @@
 		)
 		(path "/f06800b4-c684-468b-ab65-06333932fa7c")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.11 -2.11)
@@ -8139,7 +8139,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/1d5541ab-e072-41bf-965b-87450e2d552d")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -8355,7 +8355,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/2ac9ac9f-23f1-4c30-9bdb-f2d02cc6a156")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 27.36 -3.67)
@@ -8635,7 +8635,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/3bfa3632-a17f-4f09-8cc3-67b4edebcb36")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.65 -2.26)
@@ -8871,7 +8871,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/3311a540-84aa-4906-bc76-32b742b6f5ad")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -9087,7 +9087,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f7eacdb6-c7d9-44e0-9704-dbc05a47f652")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -9303,7 +9303,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/5b19f48d-a449-4b17-b7eb-dd31c4c76f30")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.65 -2.26)
@@ -9539,7 +9539,7 @@
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/bc5ce5aa-2921-449d-ba66-2c50458f3fc5")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 27.36 -3.67)
@@ -9819,7 +9819,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/b661abc5-9069-4898-ba48-5b0f431bbebf")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -4.585 2.26)
@@ -10055,7 +10055,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/cc53ea48-43db-46c3-bc63-810abac9c9de")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -10271,7 +10271,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/57d5ec6d-4e39-4a60-9852-67eb306d279f")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -10425,7 +10425,7 @@
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "3fae9958-7642-44b6-96de-c5f8c733b2c5")
+			(uuid "76439528-31d3-43dc-93fd-f3420c33322b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,7 +10439,7 @@
 			(unlocked yes)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "ca4ae568-1ea0-4c66-8bc3-1f0542f92298")
+			(uuid "177b836b-3a2e-4aee-8b00-683b4d219785")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10453,7 +10453,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "90ebcf60-547b-4d5e-bf23-b1359eed8c75")
+			(uuid "f3acee76-d32d-45b3-ba61-0cb68592d1a5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10466,7 +10466,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "00f9e851-0a34-4dcd-8332-5065067943e8")
+			(uuid "a903d276-80fd-4dda-abe5-dd77d472896f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10479,7 +10479,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c5e115ed-9a7d-4f33-88ad-e55591b51bfa")
+			(uuid "2d72a374-5611-4ecd-aaf2-12297f837675")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10587,7 +10587,7 @@
 		)
 		(path "/a13a526e-a22a-4417-be02-e38fd91d129d")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.85 3.9)
@@ -10597,7 +10597,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "eb7afc46-4606-4f91-9e96-8ef577050240")
+			(uuid "f335fe3b-8c06-4d52-82b5-92462151e395")
 		)
 		(fp_line
 			(start 1.85 -3.9)
@@ -10607,7 +10607,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "744f3575-6ef7-469f-8ec7-9812edb7ec13")
+			(uuid "72ae28cc-0a88-4de1-a8b1-b0486e6364a6")
 		)
 		(fp_line
 			(start -1.85 3.9)
@@ -10617,7 +10617,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "6a960d7c-d8ab-4441-b26d-1f5792198d85")
+			(uuid "570153ff-db55-4af1-b15f-9583e3758e4f")
 		)
 		(fp_line
 			(start -1.85 -3.9)
@@ -10627,7 +10627,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "7c91fe34-016c-4370-9a63-1cf30b735a1e")
+			(uuid "192d9942-f939-4f8b-8343-df29fcf0ff81")
 		)
 		(fp_line
 			(start -2.2 4.15)
@@ -10637,7 +10637,7 @@
 				(type solid)
 			)
 			(layer "B.SilkS")
-			(uuid "6c7fa865-201a-42a2-ae45-c42049486b64")
+			(uuid "fe118584-30ac-4db2-96cf-76733102526f")
 		)
 		(fp_line
 			(start 3.925 4.2)
@@ -10647,7 +10647,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "e8f057ce-f88a-4fa9-9135-fa6375e447ec")
+			(uuid "f972316d-883a-48f9-9ec8-bbf7c44b1ef1")
 		)
 		(fp_line
 			(start 3.925 -4.2)
@@ -10657,7 +10657,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "61829205-edd6-4eaa-827f-7ac56e28bd27")
+			(uuid "7cf30584-3d4e-4e9f-8ce0-4784742ef3df")
 		)
 		(fp_line
 			(start 2.2 3.9)
@@ -10667,7 +10667,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "654448a8-d754-40db-810f-85d3139e9ad6")
+			(uuid "794abb87-8619-4fbf-8244-cf7966609309")
 		)
 		(fp_line
 			(start 2.2 -3.9)
@@ -10677,7 +10677,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "c0e9546c-8a82-4dbf-a987-f142092f2222")
+			(uuid "2aa764b5-ae6e-470f-8b7f-b2dff3810552")
 		)
 		(fp_line
 			(start -1.55 3.9)
@@ -10687,7 +10687,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "8d636f01-6ee2-44b7-abe2-60c7653cd833")
+			(uuid "cec2fded-c1cd-415a-8cfa-0e76ed6e01db")
 		)
 		(fp_line
 			(start -2.2 3.9)
@@ -10697,7 +10697,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "b1c75123-69ed-46b9-8cc5-bb3a78733c73")
+			(uuid "0bc7bcaa-ce3d-4074-9f2c-1099ed2d1dd7")
 		)
 		(fp_line
 			(start -2.2 -3.9)
@@ -10707,7 +10707,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "ac0039ae-9b8e-4e15-bc8d-8671eb530e79")
+			(uuid "f3dc1302-35cf-4fb7-a2c0-43397387b25c")
 		)
 		(fp_line
 			(start -3.925 4.2)
@@ -10717,7 +10717,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "664c839f-ac6c-492d-bec0-2611fe993230")
+			(uuid "a2816b08-9d9d-4e1c-b7fc-3ad1b2324b5b")
 		)
 		(fp_line
 			(start -3.925 -4.2)
@@ -10727,7 +10727,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "ad55d289-7503-4691-aeb3-4808b5e7e9db")
+			(uuid "64b07f72-3f4a-4a5d-9f27-9ce693350d95")
 		)
 		(pad "1" smd rect
 			(at -2.938 3.575 90)
@@ -10737,7 +10737,7 @@
 			(pinfunction "VCC(A)")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0e42145f-64dc-40ee-8c12-2db3cb6529c9")
+			(uuid "3ecbe66e-3ae4-410c-aea2-c2e40f89c455")
 		)
 		(pad "2" smd rect
 			(at -2.938 2.925 90)
@@ -10747,7 +10747,7 @@
 			(pinfunction "DIR")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "f00c2d5e-ed1b-4874-a139-255777d39fd5")
+			(uuid "386c6636-7865-4b21-b49b-f319ca7931b8")
 		)
 		(pad "3" smd rect
 			(at -2.938 2.275 90)
@@ -10757,7 +10757,7 @@
 			(pinfunction "A0")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "8b64d7db-8a2a-47eb-a58c-d5a6c1a5b51a")
+			(uuid "13e60413-ebdf-4b25-aaee-2985db7aaae2")
 		)
 		(pad "4" smd rect
 			(at -2.938 1.625 90)
@@ -10767,7 +10767,7 @@
 			(pinfunction "A1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "edc2e781-9ebb-41e7-810f-a960e093963f")
+			(uuid "ccae255f-b12f-4c70-b117-81ac41dd45be")
 		)
 		(pad "5" smd rect
 			(at -2.938 0.975 90)
@@ -10777,7 +10777,7 @@
 			(pinfunction "A2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "e04f4f1d-175a-44cb-ab92-960983de6a12")
+			(uuid "4db85a37-aef3-4780-9a50-0f37ebe6e4ef")
 		)
 		(pad "6" smd rect
 			(at -2.938 0.325 90)
@@ -10787,7 +10787,7 @@
 			(pinfunction "A3")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "94f05531-a687-444c-a0e1-ac21cb4ac796")
+			(uuid "52fb3989-4f85-4d82-8f35-33511bc0d1f2")
 		)
 		(pad "7" smd rect
 			(at -2.938 -0.325 90)
@@ -10797,7 +10797,7 @@
 			(pinfunction "A4")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
-			(uuid "72016351-e51a-4d1a-954d-a3c278a2f7d1")
+			(uuid "309a0d51-9568-4dc6-82bd-9e517c9310ba")
 		)
 		(pad "8" smd rect
 			(at -2.938 -0.975 90)
@@ -10807,7 +10807,7 @@
 			(pinfunction "A5")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
-			(uuid "bce688b5-98c3-4716-992a-9bd42e2df55a")
+			(uuid "100f8f52-5366-4e7e-9def-0043b572cb9f")
 		)
 		(pad "9" smd rect
 			(at -2.938 -1.625 90)
@@ -10817,7 +10817,7 @@
 			(pinfunction "A6")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
-			(uuid "89200224-ee84-49e0-ab2c-e80d68970c9a")
+			(uuid "ce35dad7-e19a-47d4-8218-2d73c4008ed2")
 		)
 		(pad "10" smd rect
 			(at -2.938 -2.275 90)
@@ -10827,7 +10827,7 @@
 			(pinfunction "A7")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
-			(uuid "b217954e-2ea2-4ca7-8c91-92cd6100cef6")
+			(uuid "7504300f-7c51-4dfe-99cc-967f299cb822")
 		)
 		(pad "11" smd rect
 			(at -2.938 -2.925 90)
@@ -10837,7 +10837,7 @@
 			(pinfunction "GND_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "0974b89d-280b-4398-9038-adf77b5ebd98")
+			(uuid "298a19af-e6f7-4d03-8107-defe6beecffd")
 		)
 		(pad "12" smd rect
 			(at -2.938 -3.575 90)
@@ -10847,7 +10847,7 @@
 			(pinfunction "GND_2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "189326b3-1152-4273-8246-ed0117f05c94")
+			(uuid "7346cd78-84f8-4372-a0aa-904c55fe4fcc")
 		)
 		(pad "13" smd rect
 			(at 2.938 -3.575 90)
@@ -10857,7 +10857,7 @@
 			(pinfunction "GND_3")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "6c074d70-a7ac-48b1-859b-0657791e0684")
+			(uuid "cc5bcdd2-a445-46ed-9468-e6ccb278602e")
 		)
 		(pad "14" smd rect
 			(at 2.938 -2.925 90)
@@ -10867,7 +10867,7 @@
 			(pinfunction "B7")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
-			(uuid "35a03eef-6840-48ba-ad57-42a61f66978b")
+			(uuid "a6ab56e4-f7ff-4bf5-83fc-777747855830")
 		)
 		(pad "15" smd rect
 			(at 2.938 -2.275 90)
@@ -10877,7 +10877,7 @@
 			(pinfunction "B6")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
-			(uuid "32c171dc-b37f-4ad0-85ee-d365a929f321")
+			(uuid "f8517b1b-bf1e-4713-85cc-60374019103d")
 		)
 		(pad "16" smd rect
 			(at 2.938 -1.625 90)
@@ -10887,7 +10887,7 @@
 			(pinfunction "B5")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
-			(uuid "9ef548d1-3012-43f4-a5f2-50bb5a00fc1b")
+			(uuid "4cf2caec-5e7c-489f-bc83-72cadf177e5d")
 		)
 		(pad "17" smd rect
 			(at 2.938 -0.975 90)
@@ -10897,7 +10897,7 @@
 			(pinfunction "B4")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 45)
-			(uuid "9e8528e2-25db-4a56-ba68-71e9a7fd4e26")
+			(uuid "18c3264d-0fe8-4ce3-8b72-7359f20ea529")
 		)
 		(pad "18" smd rect
 			(at 2.938 -0.325 90)
@@ -10907,7 +10907,7 @@
 			(pinfunction "B3")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "cdb10fd9-b56d-4b73-b9be-aba6bacdbd21")
+			(uuid "ed098bc2-9b7c-42f4-a74f-f4c46dcbea77")
 		)
 		(pad "19" smd rect
 			(at 2.938 0.325 90)
@@ -10917,7 +10917,7 @@
 			(pinfunction "B2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "edaa111f-f883-4ec6-a319-191df4238946")
+			(uuid "0dfefa08-a36d-448d-bf44-9091891d6f39")
 		)
 		(pad "20" smd rect
 			(at 2.938 0.975 90)
@@ -10927,7 +10927,7 @@
 			(pinfunction "B1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a5758b28-619e-4583-9c52-af783536eb32")
+			(uuid "894c38eb-ac15-4196-92c2-de5f51d4ea81")
 		)
 		(pad "21" smd rect
 			(at 2.938 1.625 90)
@@ -10937,7 +10937,7 @@
 			(pinfunction "B0")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a20ff3bd-43cf-41e6-bc38-ff151d812038")
+			(uuid "546f4e47-52b2-429d-8ee8-e02e6c3012d6")
 		)
 		(pad "22" smd rect
 			(at 2.938 2.275 90)
@@ -10947,7 +10947,7 @@
 			(pinfunction "~{OE}")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "a7bdb9a0-fea6-4987-97fc-053e240476ae")
+			(uuid "f8a0a643-778b-4aac-ac12-3bc891a1a470")
 		)
 		(pad "23" smd rect
 			(at 2.938 2.925 90)
@@ -10957,7 +10957,7 @@
 			(pinfunction "VCC(B)_1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "4b5d06c0-cca5-426e-984d-1a1ddb486f1c")
+			(uuid "ba54ca34-2490-4bad-8089-c13c736404a4")
 		)
 		(pad "24" smd rect
 			(at 2.938 3.575 90)
@@ -10967,7 +10967,7 @@
 			(pinfunction "VCC(B)_2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "53650910-a609-45fa-9390-125ff3d16af3")
+			(uuid "e2b39ffd-1991-4928-bb60-714daebada43")
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
@@ -11042,7 +11042,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d9d75652-dbb2-468e-958c-5b57d2af34ea")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 0.735)
@@ -11258,7 +11258,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/48b66d43-ae23-4d83-93d7-c6572d3567b2")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.261252 -0.735)
@@ -11474,7 +11474,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9d3633eb-2866-458c-b33f-1c7fcef498d9")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 8.87 2.62)
@@ -11732,7 +11732,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/9be28461-312f-47a5-af6c-cb107e12d882")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd dnp)
 		(fp_line
 			(start 0.227064 -0.735)
@@ -11948,7 +11948,7 @@
 		(property ki_fp_filters "CP_*")
 		(path "/763cefb8-1fad-4d5c-a1f1-bc01b8d61aba")
 		(sheetname "Корневой лист")
-		(sheetfile "SmartAtt.kicad_sch")
+		(sheetfile "UA-1_v1.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.65 -2.26)
