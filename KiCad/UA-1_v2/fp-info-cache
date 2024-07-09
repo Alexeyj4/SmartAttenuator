@@ -1,4 +1,4 @@
-23133572023190485
+23137019352591834
 Alexeyj4
 HC0903A
 
@@ -14,12 +14,26 @@ MPN
 4
 4
 Alexeyj4
-OLED I2C
+OLED I2C 0.96
 
 
 0
 4
 4
+Alexeyj4
+OLED I2C 1.3
+
+
+0
+4
+4
+Alexeyj4
+Resistor 10W RectCeramic
+
+
+0
+2
+2
 Alexeyj4
 RotaryEncoder EC11 SMD
 
