@@ -54,6 +54,7 @@ void setup() {
   Serial.begin(115200); //debug
   oled.begin(); 
   pinMode(LED_PIN,OUTPUT);
+  digitalWrite(LED_PIN, 1);
   pinMode(ENC_A_PIN, INPUT_PULLUP);
   pinMode(ENC_B_PIN, INPUT_PULLUP);
   pinMode(ENC_BTN_PIN, INPUT_PULLUP);
