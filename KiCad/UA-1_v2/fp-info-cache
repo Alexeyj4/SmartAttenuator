@@ -1,4 +1,11 @@
-23137019352591834
+23142199945680285
+Alexeyj4
+B82111B0000C017
+
+
+0
+0
+0
 Alexeyj4
 HC0903A
 
@@ -6,6 +13,13 @@ HC0903A
 0
 2
 2
+Alexeyj4
+HSSR-S1A01L-2
+SOP, 4 Pin (http://www.ixysic.com/home/pdfs.nsf/www/CPC1017N.pdf/$file/CPC1017N.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+4
+4
 Alexeyj4
 MPN
 
@@ -48,6 +62,13 @@ Integrated Circuit
 0
 24
 24
+Alexeyj4
+Talnakh_75_Ohms_cable_connector
+
+
+0
+4
+2
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
